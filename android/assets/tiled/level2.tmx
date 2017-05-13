@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="200" height="15" tilewidth="64" tileheight="64" nextobjectid="131">
+ <tileset firstgid="1" name="tiled1" tilewidth="64" tileheight="64" tilecount="256" columns="16">
+  <image source="tiled1.png" width="1024" height="1024"/>
+ </tileset>
+ <layer name="Tile Layer 3" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt0z0OQEAQgNGtcRH3v6BK4WeILNbIe8lUo5jIfqXQ0tj6gANfvg2ApXE1V/fwV13Zvv91A3v7s07Ovh+qroZ3RH3M7zna1Y4+yOCojydHH2SgD4jpA2L6gJg+IKaP/Pqd8X/voQ+IteoDMmjRB2Shj++ZAPM+N+4=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1s0JhDAQBlBb8GABuva29l+BghcRZGP8mZB9D3IIBBzhm2SaBiBWv6xhsx+ODgLASVFvyhj0Xcj1Rq/oC2r1iS4ANrrdvg2pYqU3eFNk1gEArtjP8CUwW/GE77KmxLMyyC9Hd6fsQL7ImaTEeYj71HQ3p2a1pn9OVVofR9fzjxl4ygx9swM3
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztWu1uwjAMzGDT+MvXA2xs4v3fcPUPS95hO06btEHkpBNtKZHb+BzHJqWBNXCceA7wUsjoePL4pDBiW87Wa7W3NfBq+Jr4LZjTi6WHUr++KGNGtRgZm+0Y+hioCdKHFsfZ5y/pUQNzfRj92RvvlHQd5kjjDX0M1AKuJ7ymaJqw4vWc9QPHpvOrYstt4k+QfP9v1Tc0sDbuxvW3iTuH7xM/GttFlJphrVh7CG8vYeVfeD/pYvj1AMPSRyTXwdzB0tQ+lWvpDmSbvD2IFvM5jmvXNW6pC3xevGZ9N9AOJfqQuQl9fqb/Ojikx3huaSlil6cPtI3GX8O3pT14HLmvpT0D9aG9W1oHyNetva+Xy+B3c/XBtsn5p1yL9wA3OH62fGj49HNAmycvTud6Bvid1QeI+IeWU7TA8NX+QDF6Tl5eG1vpowdYa+eSfdMa8GonvdpcCu6FYQ5fgyW1JfQRzK2s2k+uj4b11h70EVkneF44l6xtd64uGPFz3BvifLR+13tho/e5hLyXbcEl70j6h9dnjvS1o/roKb9prQ+sUVtrL8dO8jWKdztxfEi6LpbOfRQl9fMeWUMf2pjWs2s9ZvxND+tHBFvpI7Ime/US+XvSVUkOwbm+JOchqM1dek19yBqqpwHt+a29SEs/K4WW1+zhmGPzVuvHXI1grZDnhXTCGsH9Lp/L9SjC0v5rj9R6E+gHMr5gjyGnj1wPWtOHtCean3oxsCSP93zgDLbmeqBLgf+X0WoZNcn2H43ziL+jPv4AASZMnQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="200" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt2GEKgzAMhmGvtnkC5/3vMoMIoVjpom2y8D7gD38IDdbPNNMEAAAA9PEq7uftenssBAhoKe7X7fo0PCff0Pz8coAU5BtavRcBdEDuA3XkPrxxxo2tnEtEk31ucnXGldqPWkf3OtH3xSjlXGKU1vdtnZv0dmcu0/qs1H7UOrrX8doX2J2973/KrDtzGWY6sLBmliXHPXsX+Mvet2uSxb/W5tm7eIr2j9Y5pVkyq9a3ntUctW/vJXNtT4p2rtA5pVkyq9a3Rqs5iy+Q3RTV
+  </data>
+ </layer>
+ <objectgroup name="bricks">
+  <object id="1" x="768" y="512" width="192" height="64"/>
+  <object id="2" x="1216" y="512" width="192" height="64"/>
+  <object id="3" x="1216" y="320" width="960" height="64"/>
+  <object id="4" name="break" x="1088" y="512" width="128" height="64"/>
+  <object id="5" name="break" x="2304" y="448" width="128" height="64"/>
+  <object id="7" x="5568" y="512" width="64" height="384"/>
+  <object id="8" name="break" x="6528" y="768" width="64" height="64"/>
+  <object id="9" name="break" x="9088" y="384" width="128" height="64"/>
+  <object id="10" x="8000" y="640" width="128" height="64"/>
+  <object id="11" x="10752" y="320" width="128" height="64">
+   <properties>
+    <property name="coins" value="1"/>
+   </properties>
+  </object>
+  <object id="12" x="10304" y="320" width="128" height="64">
+   <properties>
+    <property name="coins" value="1"/>
+   </properties>
+  </object>
+  <object id="126" x="3008" y="384" width="64" height="64">
+   <properties>
+    <property name="coins" value="3"/>
+   </properties>
+  </object>
+  <object id="129" x="3712" y="640" width="64" height="256"/>
+  <object id="130" x="3712" y="576" width="64" height="64">
+   <properties>
+    <property name="coins" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="Object Layer 3">
+  <object id="13" name="finish" x="12736" y="448" width="64" height="320"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 1">
+  <object id="14" x="6208" y="256" width="128" height="192"/>
+  <object id="15" x="6272" y="320" width="192" height="256"/>
+  <object id="17" x="5760" y="0" width="1344" height="128"/>
+  <object id="18" x="6016" y="128" width="1088" height="128"/>
+  <object id="19" x="6336" y="256" width="768" height="64"/>
+  <object id="20" x="6528" y="320" width="576" height="128"/>
+  <object id="21" x="6528" y="448" width="512" height="64"/>
+  <object id="22" x="7104" y="0" width="1088" height="384"/>
+  <object id="23" x="8192" y="0" width="128" height="320"/>
+  <object id="24" x="8320" y="0" width="1152" height="256"/>
+  <object id="25" x="8128" y="576" width="320" height="384"/>
+  <object id="26" x="9664" y="640" width="768" height="320"/>
+  <object id="27" x="10368" y="704" width="448" height="256"/>
+  <object id="28" x="10752" y="576" width="576" height="384"/>
+  <object id="29" x="11264" y="768" width="192" height="192"/>
+  <object id="30" x="11392" y="832" width="128" height="128"/>
+  <object id="31" x="11584" y="832" width="192" height="128"/>
+  <object id="32" x="11840" y="832" width="256" height="128"/>
+  <object id="33" x="12032" y="768" width="768" height="192"/>
+  <object id="34" x="7488" y="832" width="640" height="128"/>
+  <object id="35" x="6720" y="896" width="768" height="64"/>
+  <object id="36" x="5440" y="896" width="960" height="64"/>
+  <object id="37" x="4992" y="320" width="512" height="640"/>
+  <object id="38" x="4736" y="384" width="256" height="576"/>
+  <object id="39" x="4160" y="256" width="640" height="704"/>
+  <object id="40" x="4096" y="448" width="64" height="448"/>
+  <object id="41" x="4032" y="640" width="64" height="320"/>
+  <object id="42" x="3136" y="896" width="640" height="64"/>
+  <object id="43" x="1728" y="640" width="1472" height="320"/>
+  <object id="44" x="1600" y="576" width="192" height="384"/>
+  <object id="45" x="0" y="704" width="1600" height="256"/>
+  <object id="46" x="3776" y="256" width="64" height="448"/>
+  <object id="47" x="3904" y="832" width="64" height="128"/>
+  <object id="48" x="3840" y="896" width="64" height="64"/>
+  <object id="49" name="mystery" x="1408" y="128" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object id="50" name="mystery" x="1472" y="128" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object id="51" name="mystery" x="3456" y="704" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object id="52" name="mystery" x="5504" y="704" width="64" height="64">
+   <properties>
+    <property name="coins" value="5"/>
+   </properties>
+  </object>
+  <object id="53" x="5696" y="512" width="64" height="64"/>
+  <object id="54" x="5888" y="704" width="64" height="64"/>
+  <object id="55" x="7808" y="576" width="64" height="64"/>
+  <object id="56" x="7552" y="640" width="64" height="64"/>
+  <object id="57" x="10880" y="320" width="128" height="64"/>
+  <object id="58" x="10944" y="384" width="128" height="64"/>
+  <object id="59" x="10432" y="320" width="320" height="64"/>
+  <object id="60" x="10112" y="320" width="192" height="64"/>
+  <object id="61" name="enemy1" x="1728" y="512" width="64" height="64"/>
+  <object id="62" name="enemy2" x="2112" y="256" width="64" height="64"/>
+  <object id="63" name="enemy1" x="896" y="640" width="64" height="64"/>
+  <object id="64" name="enemy1" x="3008" y="576" width="64" height="64"/>
+  <object id="65" name="enemy2" x="3264" y="832" width="64" height="64"/>
+  <object id="66" name="enemy2" x="2368" y="384" width="64" height="64"/>
+  <object id="67" name="enemy2" x="5440" y="256" width="64" height="64"/>
+  <object id="68" name="enemy1" x="4736" y="192" width="64" height="64"/>
+  <object id="69" name="enemy2" x="6144" y="832" width="64" height="64"/>
+  <object id="70" name="flip" x="6336" y="832" width="64" height="64">
+   <properties>
+    <property name="id" value="1"/>
+   </properties>
+  </object>
+  <object id="71" name="flip" x="6720" y="832" width="64" height="64">
+   <properties>
+    <property name="id" value="2"/>
+   </properties>
+  </object>
+  <object id="72" name="flip" x="9664" y="576" width="64" height="64">
+   <properties>
+    <property name="id" value="3"/>
+   </properties>
+  </object>
+  <object id="73" name="flip" x="10112" y="256" width="64" height="64">
+   <properties>
+    <property name="id" value="4"/>
+   </properties>
+  </object>
+  <object id="74" name="flip" x="10944" y="256" width="64" height="64">
+   <properties>
+    <property name="id" value="4"/>
+   </properties>
+  </object>
+  <object id="75" name="enemy2" x="11264" y="512" width="64" height="64"/>
+  <object id="76" name="enemy2" x="10816" y="256" width="64" height="64"/>
+  <object id="77" name="enemy2" x="10240" y="576" width="64" height="64"/>
+  <object id="78" name="enemy1" x="10880" y="512" width="64" height="64"/>
+  <object id="79" name="enemy1" x="7552" y="768" width="64" height="64"/>
+  <object id="80" name="coin" x="512" y="512" width="64" height="64"/>
+  <object id="81" name="coin" x="896" y="384" width="64" height="64"/>
+  <object id="82" name="coin" x="1216" y="128" width="64" height="64"/>
+  <object id="83" name="coin" x="2112" y="128" width="64" height="64"/>
+  <object id="84" name="coin" x="1344" y="384" width="64" height="64"/>
+  <object id="85" name="coin" x="1600" y="384" width="64" height="64"/>
+  <object id="88" name="coin" x="3264" y="512" width="64" height="64"/>
+  <object id="91" name="coin" x="3712" y="384" width="64" height="64"/>
+  <object id="92" name="coin" x="4032" y="320" width="64" height="64"/>
+  <object id="93" name="coin" x="4160" y="128" width="64" height="64"/>
+  <object id="95" name="coin" x="5440" y="128" width="64" height="64"/>
+  <object id="97" name="coin" x="5888" y="576" width="64" height="64"/>
+  <object id="98" name="coin" x="6336" y="704" width="64" height="64"/>
+  <object id="99" name="coin" x="7040" y="640" width="64" height="64"/>
+  <object id="100" name="coin" x="7232" y="640" width="64" height="64"/>
+  <object id="101" name="coin" x="7552" y="512" width="64" height="64"/>
+  <object id="102" name="coin" x="7808" y="448" width="64" height="64"/>
+  <object id="103" name="coin" x="8064" y="704" width="64" height="64"/>
+  <object id="104" name="coin" x="7936" y="704" width="64" height="64"/>
+  <object id="105" name="coin" x="8640" y="512" width="64" height="64"/>
+  <object id="106" name="coin" x="8896" y="512" width="64" height="64"/>
+  <object id="107" name="coin" x="9152" y="512" width="64" height="64"/>
+  <object id="110" name="coin" x="9408" y="512" width="64" height="64"/>
+  <object id="113" name="coin" x="11584" y="640" width="64" height="64"/>
+  <object id="114" name="elevator" x="8640" y="576" width="192" height="64">
+   <properties>
+    <property name="pos" value="11,0"/>
+   </properties>
+  </object>
+  <object id="115" x="9792" y="448" width="64" height="64"/>
+  <object id="116" x="9472" y="384" width="128" height="64"/>
+  <object id="117" x="9280" y="384" width="128" height="64"/>
+  <object id="118" x="9024" y="384" width="64" height="64"/>
+  <object id="119" x="8832" y="384" width="128" height="64"/>
+  <object id="120" x="8640" y="384" width="128" height="64"/>
+  <object id="121" name="enemy2" x="8384" y="512" width="64" height="64"/>
+  <object id="122" x="7936" y="512" width="64" height="64"/>
+  <object id="123" name="hero" x="192" y="640" width="64" height="64"/>
+  <object id="124" name="bones" x="5824" y="832" width="64" height="64"/>
+  <object id="125" name="sign" x="2816" y="576" width="64" height="64">
+   <properties>
+    <property name="text" value="Find more coins inside a certain brick ...."/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

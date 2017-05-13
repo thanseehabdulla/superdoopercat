@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="45" height="15" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="tiled1" tilewidth="64" tileheight="64">
+  <image source="tiled1.png" width="1024" height="1024"/>
+ </tileset>
+ <layer name="Tile Layer 4" width="45" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzTZGBg0BzFoxgLhoGBdseomwcfHnXzqJtH3Tzq5lE3D05MLUBPNwMAJBxltA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="45" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAOUIJiegJlCvWrUsUVo2AUjIJRMHyAOon8oQroXV+NgqENRKlsHhMQM0NpViqbTQ9A7fAAACpMAVo=
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="45" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztldkKgCAQRW8bPbd9QBv9/x82osIkFVGjLXThoA9Rx+FKFYBKgIboiJ4YzN4X/Jv9BUaEC3d+S37nZSah90REYsgQds5nz1AQtUF5vqEbvp2l+mCjehFD98KuT5+zmnHp8HTnFvo/wt33nN37uhbpLmzlqLPb/TvzFecc+l6m0F3gq90nzjMxg9/rNJCzT6SdZ7umD+s=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="45" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzscNACAQA8HrjtAAoQFC/wXgDtC9LJBH2v+aiYjcJZTZE04NdfaE00KbPSHPCyiyJ5wKquwJp4Eme+IDB6CtBCc=
+  </data>
+ </layer>
+ <objectgroup name="bricks"/>
+ <objectgroup name="Object Layer 3">
+  <object name="missile_launcher" x="1472" y="768" width="64" height="64"/>
+ </objectgroup>
+ <objectgroup name="Object Layer 1" visible="0">
+  <object name="door_in" x="554.333" y="766.333" width="42.6667" height="62.6667"/>
+  <object x="448" y="640" width="256" height="64"/>
+  <object x="0" y="0" width="192" height="960"/>
+  <object x="0" y="0" width="1216" height="128"/>
+  <object x="2880" y="832" width="192" height="128"/>
+  <object x="1216" y="0" width="1664" height="64"/>
+  <object x="192" y="832" width="1472" height="128"/>
+  <object x="1280" y="448" width="64" height="64"/>
+  <object x="1024" y="640" width="64" height="64"/>
+  <object x="1472" y="256" width="64" height="64"/>
+  <object x="1728" y="320" width="64" height="64"/>
+  <object x="1856" y="512" width="64" height="64"/>
+  <object x="2112" y="512" width="64" height="64"/>
+  <object x="2368" y="512" width="64" height="64"/>
+  <object x="2624" y="256" width="256" height="64"/>
+  <object x="2560" y="448" width="320" height="192"/>
+  <object x="2688" y="640" width="192" height="320"/>
+  <object name="door_out" x="2730.33" y="382.333" width="42.6667" height="62.6667"/>
+  <object name="coin" x="1088" y="448" width="64" height="64"/>
+  <object name="coin" x="1344" y="256" width="64" height="64"/>
+  <object name="coin" x="1728" y="192" width="64" height="64"/>
+  <object name="coin" x="1856" y="384" width="64" height="64"/>
+  <object name="coin" x="2368" y="320" width="64" height="64"/>
+  <object name="coin" x="2624" y="128" width="64" height="64"/>
+  <object name="coin" x="640" y="512" width="64" height="64"/>
+ </objectgroup>
+</map>
